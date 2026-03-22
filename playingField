@@ -1,0 +1,17 @@
+#Playing field
+
+#Four objective spaces which allow 7->King incrementally
+#One space in the middle which allows 6 -> Ace incrementally
+#Four spaces for discard, from which cards can be played onto objective spaces
+
+#Represent playing field spaces as lists
+objectiveSpaceK1 = []
+objectiveSpaceK2 = []
+objectiveSpaceK3 = []
+objectiveSpaceK4 = []
+objectiveSpaceAce = []
+discardSpace1 = []
+discardSpace2 = []
+discardSpace3 = []
+discardSpace4 = []
+
