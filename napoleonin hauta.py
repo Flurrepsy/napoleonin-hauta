@@ -6,13 +6,11 @@ import cardChecker as cc
 import playingField as pf
 import os
 import sys
-#import mainLoop as ml
 
 importlib.reload(cc)
 importlib.reload(drwcrd)
 importlib.reload(pf)
 importlib.reload(sh)
-#importlib.reload(ml)
 
 from PyQt6.QtCore import QSize, Qt
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QLabel, QGridLayout, QHBoxLayout, QDialog, QMessageBox
